@@ -45,6 +45,10 @@ function calculate() {
   result = null;
 }
 
+function clearDisplay(){
+    displayValue = "";
+    updateDisplay();    
+}
 function updateDisplay() {
   document.getElementById("display").value = displayValue;
 }
